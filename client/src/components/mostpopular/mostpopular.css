@@ -1,0 +1,39 @@
+.backcolor{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.b{
+    margin-bottom: 4rem;
+}
+
+.topten-father{
+    margin-bottom: 7rem;
+   
+}
+
+.topten-son img{
+    object-fit: contain;
+    width: 200px;
+}
+
+.topten-son h2, p {
+    margin-left: 3rem;
+}
+
+.topten-son h2 {
+    font-size: 28px;
+}
+
+.topten-son p{
+    width: 80%;
+    min-width: 650px;
+    font-size: 20px;
+}
+
+@media screen and (max-width:1000px) {
+    .topten-son{
+        display:block;
+    }
+    
+}

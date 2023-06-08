@@ -1,0 +1,9 @@
+.puntuation{
+    display: inline-flex;
+    margin-top: -5px;
+}
+
+.puntuation img{
+    max-width:20px;
+    margin: 7px;
+}

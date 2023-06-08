@@ -1,0 +1,50 @@
+
+.seeBreed img{
+    width: 280px;
+    object-fit: contain;
+}
+
+.catb-img{
+    min-width: 400px;
+}
+
+.seeBreed-son p{
+    margin-top: 13px;
+}
+
+
+.bars{
+    width: 70px;
+}
+
+.otherPhotos img{
+    object-fit: contain;
+    margin-top: 1rem;
+    width: 250px;
+    border-radius: 1rem;
+}
+
+@media screen and (max-width: 1025px) {
+    .seeBreed{
+        display: block;
+    }
+
+    .seeBreed img{
+        margin: auto;
+    }
+
+    .seeBreed-son p{
+        margin-left: 4.5rem;
+    }
+
+}
+
+@media screen and (max-width: 765px) {
+    .seeBreed-son{
+        margin: 0 auto;
+    }
+
+    .otherPhotos img{
+        width: 100%;
+    }
+}

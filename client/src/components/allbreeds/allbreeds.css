@@ -1,0 +1,32 @@
+.back{
+    background-color: rgb(252, 235, 224);
+}
+
+.e{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.all{
+   display:flex;
+   flex-wrap: wrap;
+}
+
+.all img{
+    width: 300px;
+    min-height: 350px;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.all img:hover{
+    filter: brightness(1.2) drop-shadow(5px 5px 10px #000);
+    transform: scale(1.1);
+    transition: all .5s;
+}
+
+button, span {
+    margin: 1rem;
+}

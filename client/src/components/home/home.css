@@ -1,0 +1,116 @@
+
+.hero{
+    background-color: rgb(245, 206, 181);
+    border-radius: 30px;
+    position: relative;
+}
+
+.bigHero{
+    position: relative;
+}
+
+.hero-img{
+    position: absolute;
+    top: 10vh;
+    transform: translateY(-1vh);
+    left: 10%;
+    width: 40vw;
+    height: 40vh;
+}
+
+.hero-img img{
+    object-fit: contain;
+    width: 80%;
+}
+
+.hero-img p{
+    font-size: 18px;
+    text-align: left;
+}
+
+.hero-img select, p{
+    outline: none;
+    width: 70%;
+}
+
+.hero-img select{
+    padding: .8rem .5rem;
+}
+
+
+.footer{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+
+.seeMore h2{
+    width: 380px;
+    font-size: 35px;
+}
+
+.seeMore a{
+   position: absolute;
+   right: 10rem;
+   color: red;
+}
+
+.hisbreed img{
+    border-radius: 30px;
+    width: 210px;
+}
+
+.shouldCat{
+    width: 550px;
+}
+
+.shouldCat h2{
+    font-size: 55px;
+}
+
+.shouldCat-imgs{
+    width: 550px;
+}
+
+.shouldCat-imgs img{
+   object-fit: contain;
+}
+
+
+@media screen and (max-width:1200px) {
+    .marginbar{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .seeMore a{
+        right: 2rem;
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .hero-img p{
+        font-size: 12px;
+    }
+    .hero-img select{
+        padding: 0rem;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    .shouldCat h2{
+        text-align: center;
+        font-size: 30px;
+    }
+   
+}
+
+@media screen and (max-width:465px) {
+    .hero-img{
+        width: 50vw;
+        top:6vh;
+        left: -1vw;
+    }
+}
