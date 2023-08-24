@@ -1,4 +1,4 @@
-# Unsplash
+# Catwiki
 ## Descripcion:
 ### web app que sirve para subir imagenes bajo una contraseña y ver colecciones de imagenes de otros usuarios
 
@@ -36,11 +36,10 @@ __- forms -__
 ## Server: ##
 ### Configuracion y funciones del backend
 __- Controllers -__
-__- libs -__
 __- models -__
 __- routes -__
 __- config.js -__
-__- database.js -__
+__- db.js -__
 __- index.js -__
 
 ## Uploads: ##
