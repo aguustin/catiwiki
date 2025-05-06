@@ -3,6 +3,9 @@ import logowhite from "../../img/catwikilogowhite.svg";
 import heroImagelg from "../../img/HeroImagelg.png";
 import threecats from "../../img/threecats.png";
 import cat from "../../img/cat.jpg";
+import catB from "../../img/catB.jpg";
+import catC from "../../img/catC.jpg";
+import catD from "../../img/catD.jpg";
 import { useContext, useEffect, useState } from "react";
 import BreedContext from "../../context/breedsContext";
 import "./home.css";
@@ -17,17 +20,17 @@ const Home = () => {
 
    useEffect(() => {
 
-     fetch(`https://api.thecatapi.com/v1/breeds`)
-        .then((resp) => {
-            return resp.json()
-        })
-        .then((data) => {
-            setCategories(data);
-        })
-
+        fetch(`https://api.thecatapi.com/v1/breeds`)
+           .then((resp) => {
+               return resp.json()
+           })
+           .then((data) => {
+               setCategories(data);
+           })
+    
    }, []);
 
-
+   console.log(categories)
 
     return(
         <div>
@@ -54,19 +57,19 @@ const Home = () => {
                         </div>
                         <div className="hisbreed w-11/12 mx-auto text-left flex flex-wrap">
                             <div className="m-3 mx-auto">
-                                <img src={cat} alt=""></img>
+                            <img src={cat} alt=""></img>
                                 <p>his breed</p>
                             </div>
                             <div className="m-3 mx-auto">
-                                <img src={cat} alt=""></img>
+                                <img src={catB} alt=""></img>
                                 <p>his breed</p>
                             </div>
                             <div className="m-3 mx-auto">
-                                <img src={cat} alt=""></img>
+                                <img src={catC} alt=""></img>
                                 <p>his breed</p>
                             </div>
                             <div className="m-3 mx-auto">
-                                <img src={cat} alt=""></img>
+                                <img src={catD} alt=""></img>
                                 <p>his breed</p>
                             </div>
                         </div>

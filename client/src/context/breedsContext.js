@@ -11,11 +11,9 @@ export const BreedContextProvider = ({children}) => {
     const [selectionBreed, setSelectBreed] = useState();
 
     const searchingBreeds = async (e) => {
-        
         setSelectBreed(e);
         navigate("/seeBreed");
         await searchBreeds(e);
-       
     }   
 
     return(
